@@ -1,0 +1,4 @@
+# Analytical reproduction scope
+This derivative supports the frozen survey-corrected Tables 1–4, figure source data, oral-impact definition sensitivities, duplicate scenarios, final models and global term tests, exact design-impact comparisons, and the 22/85 nominal-significance-crossing headline with median SE ratio.
+The runner recalculates only authorized frozen specifications. It does not select covariates, reconstruct undocumented transformations or change reported results. Reference outputs are aggregate tables supplied only for numerical checks; they contain no individual rows.
+The cross-record local test starts from an empty working directory containing only restricted data/dictionary and three public R files. Installed R packages are external dependencies. The approved restricted-access architecture controls distribution without changing the analytical data.

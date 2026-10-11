@@ -1,0 +1,10 @@
+# Individual data access
+The participant-level CSV is not included in GitHub. It is prepared for a separate restricted-access Zenodo record; no record or DOI exists at this prepublication stage.
+After that record is published, request access from its depositant, giving your identity/contact and research, verification or replication purpose, and accepting all data-use conditions. These prohibit re-identification, linkage to source survey records/codes and redistribution, and require secure storage, agreed-purpose use, citation and compliance with applicable INEC conditions.
+After approval, store the unchanged authorized file locally as `data/PONE_D_26_05990_minimal_analytical.csv`, or supply another secure path with --data. The exact expected filename is PONE_D_26_05990_minimal_analytical.csv. This path is ignored by Git. Never force-add it or place it in a public issue or workflow.
+Run from the repository root:
+```sh
+Rscript R/run_all.R --data data/PONE_D_26_05990_minimal_analytical.csv
+```
+The separate public data_dictionary.csv describes the 29 fields. FEXP_F4 uses C99 hexadecimal floating-point text, decoded exactly by the R loader. Do not convert, round or resave it in spreadsheet software. Opaque design labels preserve membership; they do not prevent linkage.
+Controlled internal publication slot: DATA_ZENODO_DOI = {{DATA_ZENODO_DOI}}. Replace only after a verified record exists.

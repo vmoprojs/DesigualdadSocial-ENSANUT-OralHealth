@@ -1,0 +1,5 @@
+# Historical duplicates and sensitivity
+Four historical participant identifiers occurred twice. Outcomes were identical within each pair, whereas some historical covariates differed. All original rows are retained for comparability.
+Four artificial group labels and whole-row versions A/B permit every one of the 16 combinations selecting one stored row per pair. Each yields 18,801 records. The UNIQUE18797 sensitivity excludes all eight paired records and retains 18,797. The eight flagged records remain distinguishable as pairs.
+The frozen earlier backward analysis found identical final selected terms across these scenarios. The portable runner reproduces fixed final and historical formulas and global term tests for all scenarios; it does not rerun selection or independently re-establish selection-path stability.
+The flags are necessary for this validation scope. They contain no official identifier, but the disclosure audit showed that associated records remain linkable through other retained attributes. No actual pair values or source codes are included in this note.

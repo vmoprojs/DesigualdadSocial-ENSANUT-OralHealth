@@ -1,0 +1,80 @@
+# Controlled fields omitted until L10: repository-code, doi, date-released.
+# repository-code must be the verified GitHub URL, never a placeholder URL.
+cff-version: 1.2.0
+message: Cite this software and the related study. DOI, repository URL and release
+  date will be added only after publication.
+type: software
+title: DesigualdadSocial-ENSANUT-OralHealth
+authors:
+- family-names: Rodriguez
+  given-names: Alejandro
+  affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud y
+    de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+- family-names: Cabezas-Herrera
+  given-names: Karla
+  affiliation: Escuela de Odontología, Facultad de Ciencias de la Salud, Universidad
+    Hemisferios, Quito, Ecuador
+- family-names: Herrera-Albuja
+  given-names: Samira
+  affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud y
+    de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+- family-names: Morales-Oñate
+  given-names: Víctor
+  affiliation: Departamento de Economía, Universidad de las Américas, Quito, Ecuador
+version: 1.0.0
+abstract: 'Socioeconomic inequalities in oral health-related behaviours in children
+  and adolescents in Ecuador: a cross-sectional study Public code and non-sensitive
+  reproducibility materials; participant data are assigned to a separate restricted
+  record.'
+references:
+- type: unpublished
+  title: 'Socioeconomic inequalities in oral health-related behaviours in children
+    and adolescents in Ecuador: a cross-sectional study'
+  authors:
+  - family-names: Rodriguez
+    given-names: Alejandro
+    affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud
+      y de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+  - family-names: Cabezas-Herrera
+    given-names: Karla
+    affiliation: Escuela de Odontología, Facultad de Ciencias de la Salud, Universidad
+      Hemisferios, Quito, Ecuador
+  - family-names: Herrera-Albuja
+    given-names: Samira
+    affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud
+      y de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+  - family-names: Morales-Oñate
+    given-names: Víctor
+    affiliation: Departamento de Economía, Universidad de las Américas, Quito, Ecuador
+  year: 2026
+  notes: Related manuscript PONE-D-26-05990R1; no published DOI supplied.
+keywords:
+- ENSANUT 2018
+- Ecuador
+- oral health
+- complex survey
+- reproducibility
+license: MIT
+preferred-citation:
+  type: software
+  title: DesigualdadSocial-ENSANUT-OralHealth
+  authors:
+  - family-names: Rodriguez
+    given-names: Alejandro
+    affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud
+      y de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+  - family-names: Cabezas-Herrera
+    given-names: Karla
+    affiliation: Escuela de Odontología, Facultad de Ciencias de la Salud, Universidad
+      Hemisferios, Quito, Ecuador
+  - family-names: Herrera-Albuja
+    given-names: Samira
+    affiliation: Escuela de Odontología, Facultad de Ciencias Médicas, de la Salud
+      y de la Vida, Universidad Internacional del Ecuador, Quito, Ecuador
+  - family-names: Morales-Oñate
+    given-names: Víctor
+    affiliation: Departamento de Economía, Universidad de las Américas, Quito, Ecuador
+  version: 1.0.0
+  notes: Prepublication software; related manuscript PONE-D-26-05990R1. No DOI or
+    public repository URL assigned.
+
