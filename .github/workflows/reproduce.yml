@@ -1,0 +1,25 @@
+name: Public reproducibility checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.0'
+      - name: Verify public release bytes and absent restricted dataset
+        run: |
+          test ! -e data/PONE_D_26_05990_minimal_analytical.csv
+          sha256sum -c RELEASE_SHA256SUMS.txt
+      - name: Restore declared dependencies
+        run: Rscript scripts/restore_dependencies.R
+      - name: Run checks without participant data
+        run: Rscript tests/test_public.R

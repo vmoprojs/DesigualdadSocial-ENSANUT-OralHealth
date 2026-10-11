@@ -1,0 +1,6 @@
+package,version
+R,4.6.0
+survey,4.5
+readr,2.2.0
+dplyr,1.2.1
+ggplot2,4.0.3

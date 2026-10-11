@@ -1,0 +1,10 @@
+Package: ENSANUTOralHealthReproduction
+Type: Project
+Title: Frozen ENSANUT Oral Health Reproduction
+Version: 1.0.0
+Authors@R: c(person("Alejandro", "Rodriguez", role = "aut"), person("Karla", "Cabezas-Herrera", role = "aut"), person("Samira", "Herrera-Albuja", role = "aut"), person("Víctor", "Morales-Oñate", role = "aut"))
+Description: Reproduction of frozen survey analyses from a separately authorized restricted analytical derivative. This is an analysis project, not an installable R package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.6.0)
+Imports: survey (== 4.5), readr (== 2.2.0), dplyr (== 1.2.1), ggplot2 (== 4.0.3)
