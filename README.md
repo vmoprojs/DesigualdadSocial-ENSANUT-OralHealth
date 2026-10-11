@@ -3,7 +3,7 @@ Article: Socioeconomic inequalities in oral health-related behaviours in childre
 Manuscript: PONE-D-26-05990R1. Software version 1.0.0; planned release tag v1.0.0.
 This R project reproduces the frozen complex-survey analyses of oral health-related behaviours in Ecuadorian children and adolescents. Source: ENSANUT 2018, Instituto Nacional de Estadística y Censos (INEC), [official catalog](https://anda.inec.gob.ec/anda5/index.php/catalog/891).
 ## Publication status
-Prepared locally for a public GitHub repository and a persistent Zenodo archive of release v1.0.0. No remote repository, release, Zenodo deposit or DOI exists yet. Participant data are prepared for a separate restricted Zenodo record. INEC authorized redistribution of the de-identified analytical derivative; supporting authorization is archived at INEC.
+Public source repository: [DesigualdadSocial-ENSANUT-OralHealth](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth). Software version 1.0.0 is prepared for archival through the connected Zenodo integration. The release archive and separate restricted dataset record are pending publication; no DOI is assigned yet. INEC authorized redistribution of the de-identified analytical derivative; supporting authorization is archived at INEC.
 ## Requirements and installation
 Use R 4.6.0. Direct runtime dependencies: survey 4.5, readr 2.2.0, dplyr 1.2.1 and ggplot2 4.0.3. Exact recursive versions are in renv.lock; dependency_versions.csv records the direct validated environment. See [reproducibility](docs/reproducibility.md).
 From the repository root:
@@ -31,14 +31,10 @@ Final formulas and complete-case locks are frozen. No backward selection is exec
 - .github/workflows/reproduce.yml: public validation only, prepared for future GitHub Actions.
 ## Licence and citation
 MIT covers the original code and original accompanying documentation. It does not apply to the restricted analytical dataset or original INEC microdata. The analytical dataset uses RESTRICTED DATA USE CONDITIONS, requiring secure purpose-limited use, attribution and compliance with applicable INEC conditions, and prohibiting re-identification, source-record linkage and redistribution.
-Cite the software authors/version in [CITATION.cff](CITATION.cff), the related manuscript and the original survey; add the verified archived software DOI and data DOI after publication. repository-code, DOI and date-released are deliberately omitted from machine-readable CFF until real values exist.
+Cite the software authors/version in [CITATION.cff](CITATION.cff), the related manuscript and the original survey. Persistent software and restricted-data identifiers will be added after verified publication.
 ## Data Availability
-The analysis code, data dictionary and non-sensitive reproducibility materials have been prepared for public release through GitHub and archival in Zenodo. The de-identified analytical dataset will be deposited separately in Zenodo under restricted access because combinations of analytical variables permit linkage to source survey records and survey-design codes. The official source is INEC ENSANUT 2018; redistribution of the derivative was authorized by INEC. No online availability is claimed at this stage.
-## Internal publication slots
-These are unassigned editorial slots, not links or DOI identifiers:
-- GITHUB_URL = {{GITHUB_URL}}
-- CODE_ZENODO_DOI = {{CODE_ZENODO_DOI}}
-- DATA_ZENODO_DOI = {{DATA_ZENODO_DOI}}
-The author will replace them with verified values during publication. There is no DOI badge. [Draft Zenodo metadata](ZENODO_METADATA_DRAFT.md) specifies the archive relationship.
+The analysis code, data dictionary and non-sensitive reproducibility materials are openly available at [GitHub](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth). Zenodo archival of software and deposition of the separate restricted analytical dataset are pending. Individual data remain restricted because combinations of analytical variables permit linkage to source survey records and survey-design codes. The official source is INEC ENSANUT 2018; redistribution of the derivative was authorized by INEC.
+## Archival metadata
+[Zenodo metadata](ZENODO_METADATA_DRAFT.md) describes the software archive and the separate restricted-data record.
 ## Integrity
 RELEASE_SHA256SUMS.txt covers the complete public payload except itself and .git. From the repository root use sha256sum -c RELEASE_SHA256SUMS.txt (Linux) or shasum -a 256 -c RELEASE_SHA256SUMS.txt (macOS). Its own digest is recorded in the separate review bundle. Recompute it after any L10 metadata edit before tagging a release.

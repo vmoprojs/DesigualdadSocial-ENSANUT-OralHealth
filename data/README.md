@@ -7,4 +7,3 @@ Run from the repository root:
 Rscript R/run_all.R --data data/PONE_D_26_05990_minimal_analytical.csv
 ```
 The separate public data_dictionary.csv describes the 29 fields. FEXP_F4 uses C99 hexadecimal floating-point text, decoded exactly by the R loader. Do not convert, round or resave it in spreadsheet software. Opaque design labels preserve membership; they do not prevent linkage.
-Controlled internal publication slot: DATA_ZENODO_DOI = {{DATA_ZENODO_DOI}}. Replace only after a verified record exists.

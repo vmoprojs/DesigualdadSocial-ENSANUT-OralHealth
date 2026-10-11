@@ -1,8 +1,6 @@
-# Controlled fields omitted until L10: repository-code, doi, date-released.
-# repository-code must be the verified GitHub URL, never a placeholder URL.
 cff-version: 1.2.0
-message: Cite this software and the related study. DOI, repository URL and release
-  date will be added only after publication.
+message: Cite this software using the authors and version below. The persistent archive
+  DOI will be added after publication.
 type: software
 title: DesigualdadSocial-ENSANUT-OralHealth
 authors:
@@ -75,6 +73,7 @@ preferred-citation:
     given-names: Víctor
     affiliation: Departamento de Economía, Universidad de las Américas, Quito, Ecuador
   version: 1.0.0
-  notes: Prepublication software; related manuscript PONE-D-26-05990R1. No DOI or
-    public repository URL assigned.
-
+  notes: Public software repository for manuscript PONE-D-26-05990R1; archival DOI
+    pending.
+  url: https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth
+repository-code: https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth
