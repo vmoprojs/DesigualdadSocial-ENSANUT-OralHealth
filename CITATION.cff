@@ -1,6 +1,5 @@
 cff-version: 1.2.0
-message: Cite this software using the authors and version below. The persistent archive
-  DOI will be added after publication.
+message: Cite this archived software using the DOI, authors and version below.
 type: software
 title: DesigualdadSocial-ENSANUT-OralHealth
 authors:
@@ -73,7 +72,11 @@ preferred-citation:
     given-names: Víctor
     affiliation: Departamento de Economía, Universidad de las Américas, Quito, Ecuador
   version: 1.0.0
-  notes: Public software repository for manuscript PONE-D-26-05990R1; archival DOI
-    pending.
-  url: https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth
+  notes: 'Software for manuscript PONE-D-26-05990R1. Related analytical data are restricted:
+    https://doi.org/10.5281/zenodo.23298197.'
+  url: https://zenodo.org/records/23298112
+  doi: 10.5281/zenodo.23298112
 repository-code: https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth
+doi: 10.5281/zenodo.23298112
+url: https://zenodo.org/records/23298112
+date-released: '2026-10-11'

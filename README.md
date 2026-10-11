@@ -1,9 +1,9 @@
 # DesigualdadSocial-ENSANUT-OralHealth
 Article: Socioeconomic inequalities in oral health-related behaviours in children and adolescents in Ecuador: a cross-sectional study
-Manuscript: PONE-D-26-05990R1. Software version 1.0.0; planned release tag v1.0.0.
+Manuscript: PONE-D-26-05990R1. Software version 1.0.0; immutable archived release tag v1.0.0.
 This R project reproduces the frozen complex-survey analyses of oral health-related behaviours in Ecuadorian children and adolescents. Source: ENSANUT 2018, Instituto Nacional de Estadística y Censos (INEC), [official catalog](https://anda.inec.gob.ec/anda5/index.php/catalog/891).
 ## Publication status
-Public source repository: [DesigualdadSocial-ENSANUT-OralHealth](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth). Software version 1.0.0 is prepared for archival through the connected Zenodo integration. The release archive and separate restricted dataset record are pending publication; no DOI is assigned yet. INEC authorized redistribution of the de-identified analytical derivative; supporting authorization is archived at INEC.
+Public source repository: [DesigualdadSocial-ENSANUT-OralHealth](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth). [Release v1.0.0](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth/releases/tag/v1.0.0) is archived as [software DOI 10.5281/zenodo.23298112](https://doi.org/10.5281/zenodo.23298112). The analytical dataset is deposited separately under [restricted access](https://doi.org/10.5281/zenodo.23298197). DOI links added on main after archival do not alter the immutable v1.0.0 archive.
 ## Requirements and installation
 Use R 4.6.0. Direct runtime dependencies: survey 4.5, readr 2.2.0, dplyr 1.2.1 and ggplot2 4.0.3. Exact recursive versions are in renv.lock; dependency_versions.csv records the direct validated environment. See [reproducibility](docs/reproducibility.md).
 From the repository root:
@@ -14,7 +14,7 @@ Rscript R/run_all.R --help
 ```
 The explicit restoration command installs dependencies; the analytical runner makes no network requests. Public tests require no participant data and a missing dataset is an expected state.
 ## Obtain data and reproduce
-After the restricted Zenodo record is published, request access for a legitimate research, verification or replication purpose and accept its data-use conditions. See [data access](data/README.md). Place the approved intact CSV at the ignored data path, then run:
+Request access through the [restricted Zenodo dataset](https://doi.org/10.5281/zenodo.23298197) for a legitimate research, verification or replication purpose and accept its data-use conditions. See [data access](data/README.md). Place the approved intact CSV at the ignored data path, then run:
 ```sh
 Rscript R/run_all.R --data data/PONE_D_26_05990_minimal_analytical.csv
 ```
@@ -31,9 +31,9 @@ Final formulas and complete-case locks are frozen. No backward selection is exec
 - .github/workflows/reproduce.yml: public validation only, prepared for future GitHub Actions.
 ## Licence and citation
 MIT covers the original code and original accompanying documentation. It does not apply to the restricted analytical dataset or original INEC microdata. The analytical dataset uses RESTRICTED DATA USE CONDITIONS, requiring secure purpose-limited use, attribution and compliance with applicable INEC conditions, and prohibiting re-identification, source-record linkage and redistribution.
-Cite the software authors/version in [CITATION.cff](CITATION.cff), the related manuscript and the original survey. Persistent software and restricted-data identifiers will be added after verified publication.
+Cite the archived software DOI and authors/version in [CITATION.cff](CITATION.cff), the restricted dataset DOI, the related manuscript and the original survey.
 ## Data Availability
-The analysis code, data dictionary and non-sensitive reproducibility materials are openly available at [GitHub](https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth). Zenodo archival of software and deposition of the separate restricted analytical dataset are pending. Individual data remain restricted because combinations of analytical variables permit linkage to source survey records and survey-design codes. The official source is INEC ENSANUT 2018; redistribution of the derivative was authorized by INEC.
+The analysis code, data dictionary and non-sensitive reproducibility materials are openly available at GitHub (https://github.com/vmoprojs/DesigualdadSocial-ENSANUT-OralHealth) and archived in Zenodo (https://doi.org/10.5281/zenodo.23298112). The de-identified analytical dataset is deposited separately in Zenodo under restricted access (https://doi.org/10.5281/zenodo.23298197) because combinations of analytical variables permit linkage to source survey records and survey-design codes. Researchers may request access through the restricted Zenodo record subject to the stated data-use conditions. The source ENSANUT 2018 microdata are available from INEC through its official catalog (https://anda.inec.gob.ec/anda5/index.php/catalog/891). Redistribution of the analytical derivative was authorized by INEC. The materials reproduce the reported analyses from the historical derivative; incompletely documented historical transformations prevent full reconstruction from source microdata alone.
 ## Archival metadata
 [Zenodo metadata](ZENODO_METADATA_DRAFT.md) describes the software archive and the separate restricted-data record.
 ## Integrity
